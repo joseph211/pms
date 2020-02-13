@@ -1,0 +1,6 @@
+<script type="text/javascript">
+
+$( "#date" ).datepicker({dateFormat:'yy-mm-dd',showAnim:'show',maxDate: '0d',  minDate: '0d'});
+
+ </script>
+ 

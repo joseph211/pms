@@ -1,0 +1,242 @@
+/*** admin css***/
+body{padding:0px; margin:0px; font-family: "Arial", "Helvetica", "sans-serif"; font-size:12px; background-color: #F0E9E5; color:#304D75; background:url(../images/bg.gif) repeat-x top;}
+dl {clear:both;}
+dt {float:left; text-align:right; width:90px; line-height:25px; margin:0 10px 10px 0;}
+dd {float:left; width:475px; line-height:25px; margin:0 0 10px 0;}
+
+a{ font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; color:#304D75;  text-decoration:none; }
+
+a:hover { text-decoration:underline; }
+h3{
+font-size: 15px;
+}
+.whitebox { background-color: #FFFFFF;z-index:4;}
+
+.left_bg{ background:url(../images/left_bg.jpg) repeat-y top;}
+
+.right_bg{background:url(../images/right_bg.jpg) repeat-y top;}
+
+.bottom_bg{background:url(../images/bottom_bg.jpg) repeat-x top;}
+
+.main_td{font-size: 13px; }
+
+.errorMessage {
+	font-family: "Courier New", "Courier", "mono";
+	font-size: 12px;
+	font-weight: bolder;
+	color: #CC3300;
+}
+.row1
+{
+color: #333333;
+background: #F0F0F0;
+BORDER-BOTTOM: #cccccc 1pt solid; 
+ BORDER-LEFT: #cccccc 1pt solid; 
+ BORDER-TOP: #cccccc 1pt solid; 
+ BORDER-RIGHT: #cccccc 1pt solid;
+
+}
+
+.row2
+{
+background: #FFFFFF;
+BORDER-BOTTOM:#cccccc 1pt solid;
+ BORDER-LEFT: #cccccc 1pt solid; 
+ BORDER-TOP: #cccccc 1pt solid;
+ BORDER-RIGHT: #cccccc 1pt solid;
+
+}
+
+}
+
+/*Menu buttons*/
+#menu { height: 40px;}
+#sddm {	margin: 0;	padding: 0;	z-index: 30;float: top;	width:890px;}
+
+#sddm li { margin: 0;	padding: 0;	list-style: none; float: left; text-align: center; font-family: "Arial", "Helvetica", "sans-serif";	font-weight: bold;}
+
+#sddm li a { display: block; height:20px; margin: 0 3px 0 0; padding: 4px 5px;	width: 98px; background: #F0F0F0; color: #333333; text-align: center; text-decoration: none}
+
+#sddm li a:hover {	background: #DEDADA}
+
+#sddm div { position: absolute; visibility: hidden; margin: 0; padding: 0; background: #F0F0F0; z-index:5000; width:auto;	float:left;	border: 1px solid #CBCBCB}
+
+#sddm div a    {position: relative;	display: block;	margin: 0;	padding: 5px 10px;	width: auto; text-align: left; text-decoration: none; background: #F0F0F0; color: #333333; font: 11px arial;}
+
+#sddm div a:hover	{ border: 1px solid #6EB13D; color: #333333;}
+	
+.log {text-align: right; font-size: 12px;  }
+/******/
+
+.footer { font-size: 12px;}
+
+.label { font-size: 12px;}
+
+div.frameP:hover{background-color: #F0F0F0;}
+
+.frameP a:hover { text-decoration:none; }
+
+.table_css{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+}
+
+#listTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 13px;
+	color: #376BA4;
+	background-color: #F0F0F0;
+	font-weight: bold;
+	background-position: center;
+	border-bottom: 1px solid #9B9B9B;
+}
+
+.table_css td {
+BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid;
+}
+.table_css th {
+BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid;
+}
+.box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #336699;
+}
+
+.entryTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #ECECEC;
+}
+.entryTable tr {
+
+}
+.entryTable .label {
+	background-color: #7F92A4;
+	color: #FFFFFF;
+	font-weight:bold;
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid;
+}
+
+.entryTable .content {
+	background-color: #FFFFFF;
+}
+
+.pagelocator_active {
+	font-size: 11px;
+	color: #01AEF0;
+}
+
+/**show hint**/
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: lightyellow;
+width: 150px; /*Default width of hint.*/ 
+padding: 3px;
+border:1px solid black;
+font:normal 11px Verdana;
+line-height:18px;
+z-index:100;
+border-right: 3px solid black;
+border-bottom: 3px solid black;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: navy;
+margin: 3px 8px;
+}
+
+/*************/
+
+label.txt_label{
+width:160px;
+float:left;
+padding:3px 5px 0 0;
+color:#000;
+text-align:left;
+}
+
+label.long_label{
+width:315px;
+float:left;
+padding:3px 5px 0 0;
+color:#000;
+text-align:left;
+}
+
+
+.detailTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #ECECEC;
+}
+
+.detailTable .label {
+	background-color: #EFEFEF;
+	height: 35px;
+}
+
+.detailTable .content {
+	background-color: #FFFFFF;
+}
+
+.detailTabler {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #000000;
+}
+
+.detailTabler .label {
+	background-color: #EFEFEF;
+	height: 35px;
+}
+
+.detailTabler .content {
+	background-color: #FFFFFF;
+	color:#000000;
+}
+
+.detailTablere {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #000000;
+}
+
+.detailTablere .label {
+	background-color: #EFEFEF;
+	height: 35px;
+}
+
+.detailTablere .content {
+	background-color: #FFFFFF;
+	color:#000000;
+}
+
+.gray {
+ border: 1px solid #000000;
+ }
+ 
+ 
+ /*** menu css ****/
+ 
+li.disabled a{ color:grey; }
+.menu-top ul a, .menu-top ul a:hover{ text-decoration:none;}
+.menu-top ul { list-style: none; margin: 0; min-width:150%; position: relative; height: 30px;}
+ 
+.menu-top ul li { display: block; height: 28px;  overflow: visible; }
+.menu-top ul li:hover > ul { display: block; }
+ 
+.menu-top ul li a { float: left; display: block; }
+ 
+.menu-top ul li ul { display: none; position: absolute; top:100%;
+                    background: white; color: blue; height: auto;box-shadow: 0px 0px 6px 2px #666; border-radius:4px;
+}
+ 
+.menu-top ul li ul li a { padding: 4px 14px; display: block; }
+ 
+.menu-top ul li ul li.active a,
+.menu-top ul li ul li:hover { background-color:#F2FDFF;}

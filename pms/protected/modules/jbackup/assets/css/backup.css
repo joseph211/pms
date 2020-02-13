@@ -1,0 +1,24 @@
+/* 
+    Document   : backup
+    Author     : Juan David Rodriguez Ramirez <jdrodriguez429@gmail.com> @juanda1015
+    Description:
+        Estyles for module backup
+*/
+
+.download { 
+    background:url("download.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    display:inline-block;
+    float:left;
+    margin:1px;
+}
+.restore { 
+    background:url("restore.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    float:left;
+    margin: 1px;
+}
+
